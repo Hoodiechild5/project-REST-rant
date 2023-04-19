@@ -3,11 +3,11 @@ const Def = require('./default')
 
 function home () {
     return (
-        <DEf>
+        <Def>
             <main>
                 <h1>Home</h1>
             </main>
-        </DEf>
+        </Def>
     )
 }
 
