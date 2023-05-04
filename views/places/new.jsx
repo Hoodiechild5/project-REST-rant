@@ -9,7 +9,7 @@ function new_form() {
         <form method="POST" action="/places">
           <div className="form-group">
             <label htmlFor="name">Place Name</label>
-            <input type="url" className="form-control" id="name" name="name" required />
+            <input type="text" className="form-control" id="name" name="name" required />
           </div>
           <div className="form-group">
             <label htmlFor="pic">Place Picture</label>
@@ -17,18 +17,18 @@ function new_form() {
           </div>
           <div className="form-group">
             <label htmlFor="city">City</label>
-            <input type="url" className="form-control" id="city" name="city" />
+            <input type="text" className="form-control" id="city" name="city" />
           </div>
           <div className="form-group">
             <label htmlFor="state">State</label>
-            <input type="url" className="form-control" id="state" name="state" />
+            <input type="text" className="form-control" id="state" name="state" />
           </div>
           <div className="form-group">
             <label htmlFor="cuisines">Cuisines</label>
-            <input type="url" className="form-control" id="cuisines" name="cuisines" required />
+            <input type="text" className="form-control" id="cuisines" name="cuisines" required />
           </div>
 
-          <div className="form-group col-sm-4">
+          <div className="form-group">
             <label htmlFor="founded">Founded Year</label>
             <input
               type="number"
