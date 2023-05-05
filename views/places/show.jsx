@@ -1,19 +1,9 @@
 const React = require('react')
 const Def = require('../default')
-const new_form = require('./new')
 
 function show(data) {
-    let message = ''
-    off(data.message) {
-        message = (
-            <h4 className='alert-danger'>
-                {data.message}
-            </h4>
-        )
-    }
     return (
         <Def>
-
             <main>
                 <div className="row">
                     <div className="col-sm-6">
@@ -56,4 +46,4 @@ function show(data) {
 
 
 
-module.exports = new_form
+module.exports = show
